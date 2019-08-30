@@ -1,0 +1,56 @@
+body {
+	background-color: #87ffc5;
+	background-image: linear-gradient(to right, teal, white)
+}
+header {
+	background-color: black;
+	background-image: url("epicgamer.png");
+	background-position: right;
+	background-repeat: no-repeat;
+	height: 150px; /* background-image height is 150*/
+	background-position: right 5px top 5px;
+	background-repeat: no-repeat;
+	padding: 5px;
+	padding-left: 20px;
+	color: white;
+}
+footer {
+	background-color: black;
+	color: white;
+	font-family: Verdana, Arial;
+	text-align: center;
+	font-size: 90%;
+	padding: 5px;
+}
+ul {
+	list-style-position: inside;
+}
+#content {
+	background-color:#afc900;
+	padding: 15px;
+	min-height: 200px  
+}
+header, footer, #content {
+	border-style: groove;
+	border-width: 1px;
+	border-color: yellow;
+}
+#wrapper {
+	margin-left: auto;
+	margin-right: auto;
+	width: 80%;
+	box-shadow: 5px 5px 5px black; 
+}
+h1 {
+	color: white
+	font-size: 300%;
+	font-family: Cambria, Courier;
+}
+h2 {
+	color: black;
+	font-family: Verdana, Arial;
+}
+.floatImg {
+	float: left;
+	margin: 0px 10px;
+}
